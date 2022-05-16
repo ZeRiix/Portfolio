@@ -27,7 +27,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "#a5a54c" }}>
+          <p style={{ color: "rgba(255,204,0,255)" }}>
             "Deleted code is debugged code."{" "}
           </p>
           <footer className="blockquote-footer">Jeff Sickel</footer>
