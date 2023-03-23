@@ -7,6 +7,7 @@ import StreamShare from "../../Assets/Projects/streamShare.png";
 import editor from "../../Assets/Projects/coming-soon.jpg";
 import speed_cash_website from "../../Assets/Projects/speed_cash_website.png";
 import portal_knight from "../../Assets/Projects/portal_knight.png";
+import framework_front from "../../Assets/Projects/framework_front.png";
 
 function Projects() {
   return (
@@ -67,6 +68,15 @@ function Projects() {
               title="StreamShare"
               description="Streaming site under development. simple concept, all users of the platform must participate by adding a variety of content to expand our library every day. works with streamtape, sibnet, jwloader api. Equipped with a back where you can easily administer users as well as content and comments."
               link="https://github.com/ZeRiix/project_streaming"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={framework_front}
+              isBlog={false}
+              title="Framework Music Front"
+              description="Framework for the front of a music streaming site. made In natif javascript, html, css. this project allows you to build a music streaming site quickly without using a modern framework. it was created as part of a school project"
+              link="https://github.com/Vitaalx/challenge-s1-web/tree/develop"
             />
           </Col>
         </Row>

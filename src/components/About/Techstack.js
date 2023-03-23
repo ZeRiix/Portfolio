@@ -9,14 +9,17 @@ import {
   DiPython,
   DiGit,
   DiMysql,
-  DiPhp,
-  DiJqueryLogo,
   DiJava,
 } from "react-icons/di";
 import { 
-  SiFirebase, 
   SiPfsense, 
-  SiCsharp, 
+  SiCsharp,
+  SiLaravel,
+  SiRubyonrails,
+  SiSymfony,
+  SiGitlab,
+  SiVuedotjs,
+  SiPhp,
 } from "react-icons/si";
 
 function Techstack() {
@@ -35,16 +38,16 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiVuedotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPhp />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJqueryLogo />
+        <SiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
@@ -53,13 +56,22 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiGitlab />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPfsense />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLaravel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSymfony />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRubyonrails />
       </Col>
     </Row>
   );
