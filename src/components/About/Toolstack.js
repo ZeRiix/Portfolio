@@ -3,9 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiLinux,
   SiVisualstudiocode,
-  SiPostman,
-  SiMamp,
-  SiJetbrains,
   SiAdobephotoshop,
   SiUnity,
   SiAndroidstudio,
@@ -14,6 +11,8 @@ import {
   SiDocker,
   SiBlender,
   SiVmware,
+  SiInsomnia,
+  SiIntellijidea,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -26,13 +25,10 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiInsomnia />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJetbrains />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMamp />
+        <SiIntellijidea />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAdobephotoshop />
