@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website ZeRiix<br/>
-  <a href="http://soumya-jit.tech/" target="_blank">ZeRiix.tech</a>
+  <a href="http://zeriix.fr" target="_blank">ZeRiix.fr</a>
 </h2>
 
 <br/>
