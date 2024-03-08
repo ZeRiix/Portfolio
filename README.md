@@ -24,15 +24,15 @@
 
 ## Built With
 
-My personal portfolio <a href="http://ZeRiix.tech/" target="_blank">ZeRiix.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="http://ZeRiix.fr/" target="_blank">ZeRiix.fr</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
+-   React.js
+-   Node.js
+-   Express.js
+-   CSS3
+-   VsCode
 
 ## Features
 
@@ -41,6 +41,3 @@ This project was built using these technologies.
 **🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
 **📱 Fully Responsive**
-
-
-

@@ -7,15 +7,17 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
+      <Card.Body style={{ display: "flex", flexDirection: "column" }}>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank">
-          <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
-        </Button>
+        <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", height: "100%" }}>
+          <Card.Text style={{ textAlign: "justify" }}>
+            {props.description}
+          </Card.Text>
+          <Button variant="primary" href={props.link} target="_blank">
+            <BiLinkExternal /> &nbsp;
+            {props.isBlog ? "View Blog" : "View Project"}
+          </Button>
+        </div>
       </Card.Body>
     </Card>
   );
