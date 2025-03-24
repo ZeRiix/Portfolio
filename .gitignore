@@ -13,6 +13,7 @@
 
 # production
 /build
+/.npm
 
 # misc
 .DS_Store

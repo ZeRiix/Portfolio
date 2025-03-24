@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import javaApp from "../../Assets/Projects/java_app.PNG";
 import CmStream from "../../Assets/Projects/streamshare.png";
-import editor from "../../Assets/Projects/coming-soon.jpg";
-import speedCashWebsite from "../../Assets/Projects/speed_cash_website.png";
 import portalKnight from "../../Assets/Projects/portal_knight.png";
 import frameworkFront from "../../Assets/Projects/framework_front.png";
+import seaence from "../../Assets/Projects/seaence.png";
+import met from "../../Assets/Projects/met.png";
+import duplo from "../../Assets/Projects/duplo.png";
 
 function Projects() {
   return (
@@ -21,6 +21,33 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={seaence}
+              isBlog={false}
+              title="Seance"
+              description="Android 2D platform relay under Unity. equipped with 5 levels with a unique atmosphere. at the control of a little knight you can fight against all a bestiary, collect and pick up various objects that will help you in your adventure."
+              link="https://github.com/mathcovax/seaence"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={duplo}
+              isBlog={false}
+              title="DuploJS"
+              description="Duplo is comparable to Express or Fastify, directly interfacing with native platform APIs. Duplo does not handle ORM layers or service management but provides solutions for integration. Its role is to encourage thorough validation to ensure data reliability."
+              link="https://docs.duplojs.dev/fr/latest/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={met}
+              isBlog={false}
+              title="Mon Enorme Tronc"
+              description="Mon Énorme Tronc is an e-commerce website project that allows the sale of adult products in a marketplace. It is similar to BackMarket."
+              link="https://github.com/mathcovax/mon-enorme-tronc"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portalKnight}
@@ -47,35 +74,6 @@ function Projects() {
               title="Framework Music Front"
               description="Framework for the front of a music streaming site. made In natif javascript, html, css. this project allows you to build a music streaming site quickly without using a modern framework. it was created as part of a school project"
               link="https://github.com/Vitaalx/challenge-s1-web/tree/develop"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={speedCashWebsite}
-              isBlog={false}
-              title="Speed Cash"
-              description="Commercial site with management of customers, companies and partners. create in native php, javascript, jquerry. equipped with a mobile app for managing partner cards in the store and a java app for managing stock and warehouses.payment via strip and provided with a small webGL animation via three.js."
-              link="https://github.com/Vitaalx/Speed-Cash.fr"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="App Android"
-              description="Small android application made in java for the speed-cash.fr website. allows the management of cleints cards for partner companies. equipped with a bar code and qrcode reader for recent and old cards. card generated after subscription on the speed-cash.fr website."
-              link="https://github.com/ZeRiix/app_android_speed-cash"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={javaApp}
-              isBlog={false}
-              title="App Java"
-              description="Java app realize with javafx and mysqlclient. allows consultation, addition, deletion and modification of stock in real time. makes it possible to control the stock of each deposit at any time from a user station of the speed-cash company."
-              link="https://github.com/ZeRiix/app_java_speed-cash"
             />
           </Col>
         </Row>

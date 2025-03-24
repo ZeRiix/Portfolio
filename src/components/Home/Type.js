@@ -8,7 +8,6 @@ function Type() {
         strings: [
           "Developer Web",
           "Developer Android",
-          "Level Designer",
           "Developer Unity",
         ],
         autoStart: true,

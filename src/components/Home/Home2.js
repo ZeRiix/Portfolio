@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C#, Javascript and PHP. </b>
+                <b className="purple"> Typescript, C# </b>
               </i>
               <br />
               <br />
@@ -33,22 +33,22 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                video game design with unity.
+                  open-source library development. I am currently working on a robust, framework-agnostic TypeScript project.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Typescript</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  the open-source library <b className="purple" href="https://docs.duplojs.dev/fr/latest/">DuploJS</b>.
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple" href="https://github.com/duplojs/zod-to-typescript"> ZodToTypescript</b>
               </i>
             </p>
           </Col>

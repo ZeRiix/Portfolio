@@ -29,10 +29,7 @@ My personal portfolio <a href="http://ZeRiix.fr/" target="_blank">ZeRiix.fr</a> 
 This project was built using these technologies.
 
 -   React.js
--   Node.js
--   Express.js
 -   CSS3
--   VsCode
 
 ## Features
 
@@ -41,3 +38,9 @@ This project was built using these technologies.
 **🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
 **📱 Fully Responsive**
+
+## :warning: Warning
+
+This version of the project is deprecated.
+This project has been abandoned since 2020.
+In the future, I will be using a new version of the project with a new design and new features.
