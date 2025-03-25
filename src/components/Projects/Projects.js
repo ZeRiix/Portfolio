@@ -26,7 +26,7 @@ function Projects() {
               imgPath={seaence}
               isBlog={false}
               title="Seance"
-              description="Android 2D platform relay under Unity. equipped with 5 levels with a unique atmosphere. at the control of a little knight you can fight against all a bestiary, collect and pick up various objects that will help you in your adventure."
+              description="Seaence is a platform designed to simplify the search for articles, studies, and books in the medical field. Currently, data access is challenging due to the large number of specialized platforms focused on specific areas. Seaence offers a centralized and user-friendly solution, enabling even students without technical expertise to obtain relevant results. The project integrates a vector database, artificial intelligence, translation via LLM (LibreTranslate), and an intuitive querying language inspired by Scratch."
               link="https://github.com/mathcovax/seaence"
             />
           </Col>
